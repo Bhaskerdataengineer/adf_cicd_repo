@@ -12,7 +12,7 @@
 				"type": "AzureBlobFSLocation",
 				"fileName": "Bhasker Kumar resume.docx",
 				"folderPath": "input",
-				"fileSystem": "dev-container"
+				"fileSystem": "default"
 			}
 		}
 	}
