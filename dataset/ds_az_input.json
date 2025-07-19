@@ -1,0 +1,19 @@
+{
+	"name": "ds_az_input",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_az_sotrage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Bhasker Kumar resume.docx",
+				"folderPath": "input",
+				"fileSystem": "dev-container"
+			}
+		}
+	}
+}
