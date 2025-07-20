@@ -2,7 +2,7 @@
 	"name": "ds_az_output",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "ls_az_sotrage",
+			"referenceName": "ls_az_storage_key",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
