@@ -1,0 +1,18 @@
+{
+	"name": "ls_az_storage_key",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://storagedevaccountcentral.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_AzureKeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "dev-storage-key-value"
+			}
+		}
+	}
+}
