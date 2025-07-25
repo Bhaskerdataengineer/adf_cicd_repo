@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://test.dentitek/v1.patients",
+			"url": "https://pokeapi.co/api/v2/pokemon",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
